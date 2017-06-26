@@ -4,7 +4,67 @@ html {
   font-family: helvetica;
 }
 
-/*Navigation */
+h1 {
+  font-size: 1.56rem;
+  font-weight: bold;
+}
 
+h2 {
+  font-size: 1.44rem;
+  font-weight: bold;
+}
 
+h3 {
+  font-size: 1.33rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.22rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.11rem;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/*Navigation Section*/
+
+#navigation .container {
+  height: 3.56rem;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  margin-top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.menu ul {
+  display: flex;
+}
 /*Header Section*/
+
+
+/*Main Information Section*/
+
+
+/*Courses Section*/
+
+
+/*Thesis Section*/
+
+
+/*Footer Section*/
