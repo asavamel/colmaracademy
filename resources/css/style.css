@@ -43,24 +43,89 @@ h5 {
   background-color: #ffffff;
   position: fixed;
   margin-top: 0;
-  z-index: 10;
+  z-index: 15;
+  border-bottom: 1px solid #000000;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
   display: flex;
+  align-items: center;
+  padding-left: 1.333rem;
 }
 
-.menu ul {
+.logo span {
+  font-weight: bold;
+}
+
+.logo p {
+  padding-left: 0.5rem;
+}
+
+.menu nav ul {
   display: flex;
+  align-items: center;
+
+}
+
+ul li {
+  padding-right: 0.889rem;
+}
+
+ul li:hover{
+  color: #2d2dff;
+}
+
+.menu {
+  padding: 1.28rem;
 }
 /*Header Section*/
 
+.banner .container {
+  background-color: #d9d9d9;
+  display: flex;
+}
+
+.banner .container .display {
+  padding: 1.778rem 1.333rem;
+}
+
+.banner .container .display img {
+  max-width: 60%;
+  height: auto;
+  margin-top: 1.778rem;
+}
+
+.banner .container .information {
+  padding: 0.889rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navigation p {
+  background-color: #737373;
+
+  padding-top: 0.445rem;
+  padding-bottom: 0.445rem;
+  width: 100%;
+}
+
+.navigation p a{
+  color: #ffffff;
+}
+
+.navigation p a:hover{
+  color: #99ccff;
+}
 
 /*Main Information Section*/
 
-
+.main .container {
+  margin-top: 1.778rem;
+  display: flex;
+}
 /*Courses Section*/
 
 
